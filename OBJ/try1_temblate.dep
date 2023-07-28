@@ -1,6 +1,6 @@
 Dependencies for Project 'try1', Target 'temblate': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
-F (.\main.c)(0x64BCED72)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F1x_FWLIB\inc -I ..\HARDWARE\led -I ..\HARDWARE\key -I ..\HARDWARE\timer -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\SPI -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE-IC:\Keil_v5\ARM\PACK\Keil\CS32F1xx_DFP\1.0.0\Device\Include-D__UVISION_VERSION="536" -DCS32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x64C3B89B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\USER -I ..\STM32F1x_FWLIB\inc -I ..\HARDWARE\led -I ..\HARDWARE\key -I ..\HARDWARE\timer -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\SPI -I ..\HARDWARE\NRF24L01 -I ..\HARDWARE-IC:\Keil_v5\ARM\PACK\Keil\CS32F1xx_DFP\1.0.0\Device\Include-D__UVISION_VERSION="536" -DCS32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\led.h)(0x64BCECDB)
 I (..\SYSTEM\sys\sys.h)(0x649836A7)
 I (..\USER\stm32f10x.h)(0x649836A7)

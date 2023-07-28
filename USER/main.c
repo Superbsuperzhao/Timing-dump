@@ -103,6 +103,8 @@ void TASK_100MS(void)
     Motor_Cur = Vref * (float)ADC_MotorCur / (4095 * 0.05);
 }
 
+#define RUN_SOC 25
+#define STOP_SOC 20
 void TASK_1000MS(void)
 {
     LED_SYS = ~LED_SYS; // 系统工作指示灯
@@ -112,11 +114,11 @@ void TASK_1000MS(void)
     ADC_BatVol = Get_Adc_Average(ADC_Channel_0, 1);                             // 电池电压采样
     Pack_Vol = DIVIDER_COEFFICENT * 100 * 1.2 * (float)ADC_BatVol / (ADC_CH17); // 单位0.01v
 
-    if (Battery_SOC >= 20)
+    if (Battery_SOC >= RUN_SOC)
     {
         MOS_G = 1; // turn on the dump
     }
-    else
+    else if(Battery_SOC < STOP_SOC)
     {
         MOS_G = 0; // turn off the dump
     }
