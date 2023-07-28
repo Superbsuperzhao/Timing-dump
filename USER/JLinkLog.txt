@@ -1,0 +1,61 @@
+T4DD8 000:213.797   SEGGER J-Link V7.22b Log File
+T4DD8 000:214.511   DLL Compiled: Jun 17 2021 17:22:49
+T4DD8 000:214.542   Logging started @ 2023-04-20 13:41
+T4DD8 000:214.571 - 214.586ms
+T4DD8 000:214.946 JLINK_SetWarnOutHandler(...)
+T4DD8 000:215.249 - 0.322ms
+T4DD8 000:215.301 JLINK_OpenEx(...)
+T4DD8 029:877.589   
+  ***** Error: 
+T4DD8 029:877.727   Communication timed out: Requested 2 bytes, received 0 bytes !
+T4DD8 029:877.794   
+  ***** Error: 
+T4DD8 029:877.862   Cannot connect to J-Link
+T4DD8 029:919.044 - 29703.787ms returns "Communication timed out: Requested 2 bytes, received 0 bytes !
+Cannot connect to J-Link"
+T4DD8 029:919.163 
+  ***** 
+T4DD8 029:919.222 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4DD8 029:919.472 JLINK_GetHardwareVersion()
+T4DD8 030:010.723 - 91.272ms
+T4DD8 034:344.513 JLINK_IsOpen()
+T4DD8 034:344.547 - 0.041ms returns 0x00
+T4DD8 034:344.570 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T4DD8 034:347.385 - 2.827ms returns 0
+T4DD8 036:433.617 JLINK_IsOpen()
+T4DD8 036:433.651 - 0.042ms returns 0x00
+T4DD8 036:433.669 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T4DD8 036:436.344 - 2.687ms returns 0xFFFFFFFF
+T4DD8 036:436.366 JLINK_EnableLog(...)
+T4DD8 036:436.377 - 0.017ms
+T4DD8 036:436.390 JLINK_SetLogFile(...)
+T4DD8 036:436.407 - 0.023ms
+T4DD8 036:436.420 JLINK_SetWarnOutHandler(...)
+T4DD8 036:436.431 - 0.016ms
+T4DD8 036:436.443 JLINK_OpenEx(...)
+T4DD8 036:517.833 - 81.408ms returns "Failed to open DLL"
+T4DD8 036:518.187 
+  ***** 
+T4DD8 036:518.220 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T4DD8 036:518.242 JLINK_GetHardwareVersion()
+T4DD8 036:601.856 - 83.632ms
+T4DD8 037:192.942 JLINK_IsOpen()
+T4DD8 037:192.970 - 0.034ms returns 0x00
+T4DD8 037:192.984 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T4DD8 037:195.998 - 3.036ms returns 0
+T4DD8 037:752.204 JLINK_IsOpen()
+T4DD8 037:752.231 - 0.033ms returns 0x00
+T4DD8 037:752.246 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T4DD8 037:755.343 - 3.115ms returns 0
+T4DD8 037:944.557 JLINK_IsOpen()
+T4DD8 037:944.588 - 0.037ms returns 0x00
+T4DD8 037:944.603 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T4DD8 037:947.698 - 3.109ms returns 0
+T4DD8 038:119.954 JLINK_IsOpen()
+T4DD8 038:119.982 - 0.034ms returns 0x00
+T4DD8 038:119.998 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T4DD8 038:123.078 - 3.093ms returns 0
+T4DD8 044:327.628 JLINK_Close()
+T4DD8 044:327.752 - 0.133ms
+T4DD8 044:327.766   
+T4DD8 044:327.778   Closed
