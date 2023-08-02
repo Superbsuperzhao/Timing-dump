@@ -60,7 +60,7 @@ void TASK_50MS(void)
     }
     else
     {
-        Battery_SOC = ((Pack_Vol / SERIES_NUM) - 330) / 10 * 10;
+        Battery_SOC = ((Pack_Vol / SERIES_NUM) - 330);
     }
 
     if (Battery_SOC > 100)
