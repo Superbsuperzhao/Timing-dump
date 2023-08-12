@@ -1,1 +1,1 @@
-..\obj\key.o: ..\HARDWARE\key.c
+..\obj\key.o: ..\APP\key.c

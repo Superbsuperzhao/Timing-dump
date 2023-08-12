@@ -29,5 +29,6 @@
 ..\obj\stm32f10x_it.o: ..\STM32F1x_FWLIB\inc\stm32f10x_usart.h
 ..\obj\stm32f10x_it.o: ..\STM32F1x_FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\stm32f10x_it.o: ..\STM32F1x_FWLIB\inc\misc.h
-..\obj\stm32f10x_it.o: ..\HARDWARE\task.h
+..\obj\stm32f10x_it.o: ..\APP\task.h
 ..\obj\stm32f10x_it.o: ..\SYSTEM\sys\sys.h
+..\obj\stm32f10x_it.o: ..\APP\bsp_delay.h

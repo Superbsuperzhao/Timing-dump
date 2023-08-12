@@ -1,5 +1,5 @@
-..\obj\adc.o: ..\HARDWARE\adc.c
-..\obj\adc.o: ..\HARDWARE\adc.h
+..\obj\adc.o: ..\APP\adc.c
+..\obj\adc.o: ..\APP\adc.h
 ..\obj\adc.o: ..\SYSTEM\sys\sys.h
 ..\obj\adc.o: ..\USER\stm32f10x.h
 ..\obj\adc.o: ..\CORE\core_cm3.h
@@ -30,4 +30,3 @@
 ..\obj\adc.o: ..\STM32F1x_FWLIB\inc\stm32f10x_usart.h
 ..\obj\adc.o: ..\STM32F1x_FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\adc.o: ..\STM32F1x_FWLIB\inc\misc.h
-..\obj\adc.o: ..\SYSTEM\delay\delay.h

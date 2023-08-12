@@ -208,38 +208,6 @@ void car_state(int vx,int vy)
 
 }
 
-int32_t SlidingMedianFilter(int32_t FilterIn)//滑动中值滤波
-{
-	static int32_t HistoryArr[4]={0XFFFFFFFF,0XFFFFFFFF,0XFFFFFFFF,0XFFFFFFFF};
-	static int32_t OrderArr[3]={0XFFFFFFFF,0XFFFFFFFF,0XFFFFFFFF};//从小到大排列
-
-	int8_t i,j;
-	int32_t TempDate;
-	HistoryArr[3]=FilterIn;
-	for(i=0;i<3;i++)
-	{
-		HistoryArr[i]=HistoryArr[i+1];
-		OrderArr[i]=HistoryArr[i];	
-	}
-	for(j=0;j<2;j++)
-	{
-		for(i=0;i<2-j;i++)
-		{
-			if(OrderArr[i]>OrderArr[i+1])
-			{
-				TempDate=OrderArr[i];
-				OrderArr[i]=OrderArr[i+1];
-				OrderArr[i+1]=TempDate;
-			}
-		}
-	}
-	if(OrderArr[1] == 0XFFFFFFFF)
-	{
-		return FilterIn;
-	}
-	return OrderArr[1];
-}
-
 int16_t CalculateSmoothYaw(int16_t MutatedYaw)//
 {
 	static int Currentloop = 0;

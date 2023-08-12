@@ -1,5 +1,5 @@
-..\obj\motor.o: ..\HARDWARE\motor.c
-..\obj\motor.o: ..\HARDWARE\motor.h
+..\obj\motor.o: ..\APP\motor.c
+..\obj\motor.o: ..\APP\motor.h
 ..\obj\motor.o: ..\SYSTEM\sys\sys.h
 ..\obj\motor.o: ..\USER\stm32f10x.h
 ..\obj\motor.o: ..\CORE\core_cm3.h

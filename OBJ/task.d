@@ -1,5 +1,5 @@
-..\obj\task.o: ..\HARDWARE\task.c
-..\obj\task.o: ..\HARDWARE\led.h
+..\obj\task.o: ..\APP\task.c
+..\obj\task.o: ..\APP\led.h
 ..\obj\task.o: ..\SYSTEM\sys\sys.h
 ..\obj\task.o: ..\USER\stm32f10x.h
 ..\obj\task.o: ..\CORE\core_cm3.h

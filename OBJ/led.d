@@ -1,5 +1,5 @@
-..\obj\led.o: ..\HARDWARE\led.c
-..\obj\led.o: ..\HARDWARE\led.h
+..\obj\led.o: ..\APP\led.c
+..\obj\led.o: ..\APP\led.h
 ..\obj\led.o: ..\SYSTEM\sys\sys.h
 ..\obj\led.o: ..\USER\stm32f10x.h
 ..\obj\led.o: ..\CORE\core_cm3.h

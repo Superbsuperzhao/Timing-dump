@@ -1,5 +1,5 @@
-..\obj\timer.o: ..\HARDWARE\timer.c
-..\obj\timer.o: ..\HARDWARE\timer.h
+..\obj\timer.o: ..\APP\timer.c
+..\obj\timer.o: ..\APP\timer.h
 ..\obj\timer.o: ..\SYSTEM\sys\sys.h
 ..\obj\timer.o: ..\USER\stm32f10x.h
 ..\obj\timer.o: ..\CORE\core_cm3.h
@@ -30,4 +30,4 @@
 ..\obj\timer.o: ..\STM32F1x_FWLIB\inc\stm32f10x_usart.h
 ..\obj\timer.o: ..\STM32F1x_FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\timer.o: ..\STM32F1x_FWLIB\inc\misc.h
-..\obj\timer.o: ..\HARDWARE\led.h
+..\obj\timer.o: ..\APP\led.h

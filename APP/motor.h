@@ -25,7 +25,6 @@ typedef enum
 
 void car_state(int vx,int vy);
 void MotorIO_Init(void);               // PB7 PB8 PB9   for pwm
-int32_t SlidingMedianFilter(int32_t FilterIn);//»¬¶¯ÖÐÖµÂË²¨
 int16_t CalculateSmoothYaw(int16_t MutatedYaw);//
 
 

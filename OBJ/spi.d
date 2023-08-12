@@ -1,5 +1,5 @@
-..\obj\spi.o: ..\HARDWARE\spi.c
-..\obj\spi.o: ..\HARDWARE\spi.h
+..\obj\spi.o: ..\APP\spi.c
+..\obj\spi.o: ..\APP\spi.h
 ..\obj\spi.o: ..\SYSTEM\sys\sys.h
 ..\obj\spi.o: ..\USER\stm32f10x.h
 ..\obj\spi.o: ..\CORE\core_cm3.h

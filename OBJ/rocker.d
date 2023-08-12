@@ -1,5 +1,5 @@
-..\obj\rocker.o: ..\HARDWARE\rocker.c
-..\obj\rocker.o: ..\HARDWARE\rocker.h
+..\obj\rocker.o: ..\APP\rocker.c
+..\obj\rocker.o: ..\APP\rocker.h
 ..\obj\rocker.o: ..\SYSTEM\sys\sys.h
 ..\obj\rocker.o: ..\USER\stm32f10x.h
 ..\obj\rocker.o: ..\CORE\core_cm3.h

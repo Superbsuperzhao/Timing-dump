@@ -1,5 +1,5 @@
-..\obj\iwdg.o: ..\HARDWARE\iwdg.c
-..\obj\iwdg.o: ..\HARDWARE\iwdg.h
+..\obj\iwdg.o: ..\APP\iwdg.c
+..\obj\iwdg.o: ..\APP\iwdg.h
 ..\obj\iwdg.o: ..\SYSTEM\sys\sys.h
 ..\obj\iwdg.o: ..\USER\stm32f10x.h
 ..\obj\iwdg.o: ..\CORE\core_cm3.h
@@ -30,4 +30,4 @@
 ..\obj\iwdg.o: ..\STM32F1x_FWLIB\inc\stm32f10x_usart.h
 ..\obj\iwdg.o: ..\STM32F1x_FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\iwdg.o: ..\STM32F1x_FWLIB\inc\misc.h
-..\obj\iwdg.o: ..\HARDWARE\led.h
+..\obj\iwdg.o: ..\APP\led.h
