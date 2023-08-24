@@ -29,15 +29,13 @@ Project File Date:  08/03/2023
 Build target 'temblate'
 Note: source file '..\APP\main.c' - object file renamed from '..\OBJ\main.o' to '..\OBJ\main_1.o'.
 compiling main.c...
-..\APP\main.c(145): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
-          OLED_ShowString(XCoordinate, YCoordinate, Display[DisplayIndex].Name, 12);
-..\APP\main.c(147): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
-          OLED_ShowString(UnitOffset, YCoordinate, Display[DisplayIndex].Unit, 12);
-..\APP\main.c: 2 warnings, 0 errors
+..\APP\main.c(42): warning:  #177-D: variable "LockScreenCount"  was declared but never referenced
+  static uint8_t LockScreenCount = 0;
+..\APP\main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=9988 RO-data=6348 RW-data=92 ZI-data=3228  
+Program Size: Code=12088 RO-data=6348 RW-data=104 ZI-data=3352  
 FromELF: creating hex file...
-"..\OBJ\try1.axf" - 0 Error(s), 2 Warning(s).
+"..\OBJ\try1.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 

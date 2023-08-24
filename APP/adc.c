@@ -25,7 +25,7 @@ void Adc_InitAdc1(void)
     ADC_InitStructure.ADC_ContinuousConvMode = DISABLE;                 // 模数转换工作在单次转换模式
     ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_None; // 转换由软件而不是外部触发启动
     ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;              // ADC数据右对齐
-    ADC_InitStructure.ADC_NbrOfChannel = 4;                             // 顺序进行规则转换的ADC通道的数目
+    ADC_InitStructure.ADC_NbrOfChannel = 1;                             // 顺序进行规则转换的ADC通道的数目
     ADC_Init(ADC1, &ADC_InitStructure);                                 // 根据ADC_InitStruct中指定的参数初始化外设ADCx的寄存器
     ADC_Cmd(ADC1, ENABLE); // 使能指定的ADC1
     ADC_ResetCalibration(ADC1); // 使能复位校准

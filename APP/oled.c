@@ -236,7 +236,6 @@ void OLED_IoInit(void)
 	bsp_delay_ms(200);
 	OLED_RS = 1;
 	bsp_delay_ms(100);
-	
 }
 
 void OLED_Init(void)

@@ -24,12 +24,16 @@ typedef struct
 {
     uint16_t Pack_Vol;        // mv
     uint16_t Solar_Vol;       // mv
+    uint16_t Ref_Vol;       // mv
     uint16_t Solar_Cur;       // ma
+    uint16_t Battery_Res_Vol; // ma
+    int16_t Bat_Cur;          // ma
     uint16_t Led_Cur;         // ma
-    uint16_t System_Cur;         // ma
-    uint32_t Charge_Power;    // mw
-    uint32_t Light_Power; // mw
-    uint32_t System_Power; // mw
+    uint16_t Output_Cur;      // ma
+    int32_t Battery_Power;    // mw
+    uint32_t Generation_Power;    // mw
+    uint32_t Light_Power;     // mw
+    uint32_t Output_Power;    // mw
 
     uint32_t Charge_Energy_mws;    // wh
     uint32_t Discharge_Energy_mws; // wh
@@ -38,7 +42,14 @@ typedef struct
     uint32_t Discharge_Energy_mwh; // wh
 
     uint32_t Charge_Energy_wh;    // wh
+    uint32_t Last_Energy_wh;    // wh
+    uint32_t Daily_Energy_wh;    // wh
     uint32_t Discharge_Energy_wh; // wh
+
+    uint32_t RunningTime;    // s
+    uint32_t DailyChargeTime;    // s
+    uint32_t DailyIdleTime;    // s
+    uint32_t DailyChargeEnergy;    // 
 
     char Battery_SOC;
 } SOLAR_SYSTEM_T;
@@ -63,10 +74,10 @@ typedef struct
 
 typedef struct
 {
-    char Name[5];//最后一个元素为0
-        uint8_t NameLenth;
+    char Name[6]; // 最后一个元素为0
+    uint8_t NameLenth;
 
-    uint16_t Number;
+    int32_t Number;
     uint8_t NumberLenth;
     char Unit[4];
 

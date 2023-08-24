@@ -31,6 +31,7 @@
 ..\obj\main_1.o: ..\STM32F1x_FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\main_1.o: ..\STM32F1x_FWLIB\inc\misc.h
 ..\obj\main_1.o: ..\SYSTEM\delay\delay.h
+..\obj\main_1.o: ..\APP\key.h
 ..\obj\main_1.o: ..\APP\adc.h
 ..\obj\main_1.o: ..\APP\spi.h
 ..\obj\main_1.o: ..\APP\timer.h
@@ -44,3 +45,4 @@
 ..\obj\main_1.o: ..\APP\oled.h
 ..\obj\main_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\main_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
